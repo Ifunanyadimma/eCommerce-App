@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkolivegreen;
+}
 .title {
     margin-top: 100px;
     text-align: center;
@@ -14,7 +20,7 @@
 .product {
     border-radius: 15px;
     width: 300px;
-    height: 350px;
+    height: 300px;
     margin: 100px;
     display: flex;
     flex-direction: column;
@@ -23,7 +29,7 @@
 }
 .product img {
     width: 250px;
-    height: 500px;
+    height: 300px;
     border-style: solid;
 }
     .product .description {
